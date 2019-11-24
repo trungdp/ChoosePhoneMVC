@@ -9,3 +9,5 @@ C:\Users\Admin\Desktop\Workspace\.NETMVC\OnlineShop\Models\obj\Debug\Models.cspr
 C:\Users\Admin\Desktop\Workspace\.NETMVC\OnlineShop\Models\obj\Debug\Models.csproj.CopyComplete
 C:\Users\Admin\Desktop\Workspace\.NETMVC\OnlineShop\Models\obj\Debug\Models.dll
 C:\Users\Admin\Desktop\Workspace\.NETMVC\OnlineShop\Models\obj\Debug\Models.pdb
+C:\Users\Admin\Desktop\Workspace\.NETMVC\OnlineShop\Models\bin\Debug\PagedList.dll
+C:\Users\Admin\Desktop\Workspace\.NETMVC\OnlineShop\Models\bin\Debug\PagedList.xml

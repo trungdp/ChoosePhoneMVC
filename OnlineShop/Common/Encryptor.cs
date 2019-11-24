@@ -10,6 +10,7 @@ namespace OnlineShop.Common
     public class Encryptor
     {
         public static string MD5Hash(string text){
+            if (string.IsNullOrEmpty(text)) return null;
             MD5 md5 = new MD5CryptoServiceProvider();
             md5.ComputeHash(ASCIIEncoding.ASCII.GetBytes(text));
             byte[] result = md5.Hash;

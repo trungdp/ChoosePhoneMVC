@@ -144,3 +144,7 @@ C:\Users\Admin\Desktop\Workspace\.NETMVC\OnlineShop\OnlineShop\obj\Debug\OnlineS
 C:\Users\Admin\Desktop\Workspace\.NETMVC\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csproj.CopyComplete
 C:\Users\Admin\Desktop\Workspace\.NETMVC\OnlineShop\OnlineShop\obj\Debug\OnlineShop.dll
 C:\Users\Admin\Desktop\Workspace\.NETMVC\OnlineShop\OnlineShop\obj\Debug\OnlineShop.pdb
+C:\Users\Admin\Desktop\Workspace\.NETMVC\OnlineShop\OnlineShop\bin\PagedList.dll
+C:\Users\Admin\Desktop\Workspace\.NETMVC\OnlineShop\OnlineShop\bin\PagedList.xml
+C:\Users\Admin\Desktop\Workspace\.NETMVC\OnlineShop\OnlineShop\bin\PagedList.Mvc.dll
+C:\Users\Admin\Desktop\Workspace\.NETMVC\OnlineShop\OnlineShop\bin\PagedList.Mvc.xml
