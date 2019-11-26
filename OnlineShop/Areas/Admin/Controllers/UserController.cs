@@ -24,6 +24,12 @@ namespace OnlineShop.Areas.Admin.Controllers
         {
             return View();
         }
+        [HttpGet]
+        public ActionResult Edit(string id)
+        {
+            var user = new UserDAO().Detail(Convert.ToInt32(id));
+            return View(user);
+        }
 
         [HttpPost]
         public ActionResult Create(User user)
@@ -40,6 +46,27 @@ namespace OnlineShop.Areas.Admin.Controllers
                     ModelState.AddModelError("", "Thêm thành công");
             }
             return View("Index");
+        }
+
+        [HttpPost]
+        public ActionResult Edit(User user)
+        { 
+            if (ModelState.IsValid)
+            {
+                var dao = new UserDAO();
+                bool result = dao.Update(user);
+                if (result)
+                    return RedirectToAction("Index", "User");
+                else
+                    ModelState.AddModelError("", "Cập nhật thành công");
+            }
+            return View("Index");
+        }
+
+        public ActionResult Delete(int id)
+        {
+            new UserDAO().Delete(id);
+            return RedirectToAction("Index");
         }
     }
 }
