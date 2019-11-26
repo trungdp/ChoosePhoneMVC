@@ -11,3 +11,17 @@ C:\Users\Admin\Desktop\Workspace\.NETMVC\OnlineShop\Models\obj\Debug\Models.dll
 C:\Users\Admin\Desktop\Workspace\.NETMVC\OnlineShop\Models\obj\Debug\Models.pdb
 C:\Users\Admin\Desktop\Workspace\.NETMVC\OnlineShop\Models\bin\Debug\PagedList.dll
 C:\Users\Admin\Desktop\Workspace\.NETMVC\OnlineShop\Models\bin\Debug\PagedList.xml
+E:\WorkSpace\.NET\ChoosePhoneMVC\Models\bin\Debug\Models.dll.config
+E:\WorkSpace\.NET\ChoosePhoneMVC\Models\bin\Debug\Models.dll
+E:\WorkSpace\.NET\ChoosePhoneMVC\Models\bin\Debug\Models.pdb
+E:\WorkSpace\.NET\ChoosePhoneMVC\Models\bin\Debug\EntityFramework.dll
+E:\WorkSpace\.NET\ChoosePhoneMVC\Models\bin\Debug\EntityFramework.SqlServer.dll
+E:\WorkSpace\.NET\ChoosePhoneMVC\Models\bin\Debug\PagedList.dll
+E:\WorkSpace\.NET\ChoosePhoneMVC\Models\bin\Debug\EntityFramework.xml
+E:\WorkSpace\.NET\ChoosePhoneMVC\Models\bin\Debug\EntityFramework.SqlServer.xml
+E:\WorkSpace\.NET\ChoosePhoneMVC\Models\bin\Debug\PagedList.xml
+E:\WorkSpace\.NET\ChoosePhoneMVC\Models\obj\Debug\Models.csprojAssemblyReference.cache
+E:\WorkSpace\.NET\ChoosePhoneMVC\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+E:\WorkSpace\.NET\ChoosePhoneMVC\Models\obj\Debug\Models.csproj.CopyComplete
+E:\WorkSpace\.NET\ChoosePhoneMVC\Models\obj\Debug\Models.dll
+E:\WorkSpace\.NET\ChoosePhoneMVC\Models\obj\Debug\Models.pdb
