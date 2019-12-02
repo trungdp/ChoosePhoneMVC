@@ -25,3 +25,17 @@ E:\WorkSpace\.NET\ChoosePhoneMVC\Models\obj\Debug\Models.csproj.CoreCompileInput
 E:\WorkSpace\.NET\ChoosePhoneMVC\Models\obj\Debug\Models.csproj.CopyComplete
 E:\WorkSpace\.NET\ChoosePhoneMVC\Models\obj\Debug\Models.dll
 E:\WorkSpace\.NET\ChoosePhoneMVC\Models\obj\Debug\Models.pdb
+D:\ChoosePhoneMVC.git\Models\bin\Debug\Models.dll.config
+D:\ChoosePhoneMVC.git\Models\bin\Debug\Models.dll
+D:\ChoosePhoneMVC.git\Models\bin\Debug\Models.pdb
+D:\ChoosePhoneMVC.git\Models\bin\Debug\EntityFramework.dll
+D:\ChoosePhoneMVC.git\Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\ChoosePhoneMVC.git\Models\bin\Debug\PagedList.dll
+D:\ChoosePhoneMVC.git\Models\bin\Debug\EntityFramework.xml
+D:\ChoosePhoneMVC.git\Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\ChoosePhoneMVC.git\Models\bin\Debug\PagedList.xml
+D:\ChoosePhoneMVC.git\Models\obj\Debug\Models.csprojAssemblyReference.cache
+D:\ChoosePhoneMVC.git\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\ChoosePhoneMVC.git\Models\obj\Debug\Models.csproj.CopyComplete
+D:\ChoosePhoneMVC.git\Models\obj\Debug\Models.dll
+D:\ChoosePhoneMVC.git\Models\obj\Debug\Models.pdb
