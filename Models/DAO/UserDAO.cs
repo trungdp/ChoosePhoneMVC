@@ -25,23 +25,23 @@ namespace Models.DAO
 
         public bool Update(User user)
         {
-            //try
-            //{
-                
-            //}
-            //catch (Exception)
-            //{
-            //    return false;
-            //}
-            var updated = db.Users.Find(user.ID);
-            updated.ModifiedDate = DateTime.Now;
-            updated.UserName = user.UserName;
-            updated.Phone = user.Phone;
-            updated.Email = user.Email;
-            updated.Address = user.Address;
-            updated.Status = user.Status;
-            db.SaveChanges();
-            return true;
+            try
+            {
+                var updated = db.Users.Find(user.ID);
+                updated.ModifiedDate = DateTime.Now;
+                updated.UserName = user.UserName;
+                updated.Phone = user.Phone;
+                updated.Email = user.Email;
+                updated.Address = user.Address;
+                updated.Status = user.Status;
+                db.SaveChanges();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+            
         }
 
         public User Detail(int ID) {

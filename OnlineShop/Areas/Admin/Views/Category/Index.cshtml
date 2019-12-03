@@ -1,0 +1,74 @@
+﻿@model PagedList.IPagedList<Models.EF.Category>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h4 class="m-0 font-weight-bold text-primary">Danh sách người dùng</h4>
+    </div>
+    <div class="card-body">
+        @using (Html.BeginForm("Index", "Category", FormMethod.Get))
+        {
+            <div class="row">
+                <div class="input-group mb-4 col-md-6">
+                    <input type="text" name="searchString" class="form-control bg-light border-0 small" placeholder="Tìm kiếm" aria-label="Search" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit">
+                            <i class="fas fa-search fa-sm"></i>
+                        </button>
+                    </div>
+
+                </div>
+                <div class="mb-4 col-md-6 ">
+                    <a href="~/Admin/Category/Create" class="btn btn-primary btn-icon-split py-1 px-2 float-right">
+                        Thêm
+                    </a>
+                </div>
+
+            </div>
+        }
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Thao tác</th>
+                        <th>Tên</th>
+                        <th>Danh mục cha</th>
+                        <th>Trạng thái</th>
+                        <th>Seo Title</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Count != 0)
+                    {
+                        foreach (var item in Model)
+                        {
+                            <tr id="row_@item.ID;">
+                                <td>
+                                    <a href="~/Admin/Category/Edit/@item.ID" class="btn btn-primary btn-icon-split py-1 px-3">
+                                        Sửa
+                                    </a>
+                                    @Ajax.ActionLink("Xóa", "Delete", new { @id = item.ID, @class = "btn btn-primary btn-icon-split m-1" }, new AjaxOptions
+                               {
+                                   Confirm = "Bạn có muốn xóa bản ghi này?",
+                                   OnComplete = "$('#row_" + item.ID + "').remove()",
+                                   HttpMethod = "Delete"
+                               }, new { @class = "btn btn-danger btn-icon-split py-1 px-3" })
+                                </td>
+                                <td>@item.Name</td>
+                                <td>@item.ParentID</td>
+                                <td>@item.Status</td>
+                                <td>@item.SeoTitle</td>
+                            </tr>
+                        }
+                    }
+
+                </tbody>
+            </table>
+            @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+        </div>
+    </div>
+</div>
